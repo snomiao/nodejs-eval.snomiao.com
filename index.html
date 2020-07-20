@@ -1,6 +1,7 @@
 <!-- for netlify.app -->
 <script>
-const 在线求值 = async (code) => await fetch('/eval?code='+encodeURIComponent(code)).then(e=>e.text())
+const base = 'https://snomiao-evaljs.herokuapp.com'
+const 在线求值 = async (code) => await fetch(base + '/eval?code='+encodeURIComponent(code)).then(e=>e.text())
 const evalthis = () => {
     document.querySelector('#out').innerText='pending...';
     (在线求值)(document.querySelector('#code').value).then(out=>document.querySelector('#out').innerText=out);
