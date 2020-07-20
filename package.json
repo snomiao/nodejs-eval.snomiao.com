@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-eval.snomiao.com",
+  "version": "1.0.0",
+  "description": "Eval your Node.js code online with auto require NPM packages.",
+  "main": "heroku.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snomiao/nodejs-eval.snomiao.com.git"
+  },
+  "author": "snomiao@gmail.com",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/snomiao/nodejs-eval.snomiao.com/issues"
+  },
+  "homepage": "https://github.com/snomiao/nodejs-eval.snomiao.com#readme"
+}
