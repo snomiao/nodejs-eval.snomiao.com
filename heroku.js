@@ -1,8 +1,7 @@
 const express = require('express')
 const PORT = process.env.PORT || 5000
 
-
-const requireAuto = require("require-auto");
+const requireAuto = require("require-auto"); //don't supports windows
 const Nodejs求值 = (code) => {
    try{
         {

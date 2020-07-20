@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/snomiao/nodejs-eval.snomiao.com/issues"
   },
-  "homepage": "https://github.com/snomiao/nodejs-eval.snomiao.com#readme"
+  "homepage": "https://github.com/snomiao/nodejs-eval.snomiao.com#readme",
+  "dependencies": {
+    "require-auto": "^1.2.0"
+  }
 }
