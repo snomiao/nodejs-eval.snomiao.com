@@ -1,0 +1,6 @@
+{
+  "name": "nodejs-eval.snomiao.com",
+  "description": "Eval your Node.js code online with auto require NPM packages.",
+  "repository": "https://github.com/snomiao/nodejs-eval.snomiao.com",
+  "keywords": ["node", "express", "heroku"]
+}
